@@ -78,7 +78,7 @@ cd smart_chemist_backend
 mkdir static
 cd static
 git clone https://github.com/torbengutermuth/smart_chemist_frontend
-sed -i -e 's,https://chemist.smarts.plus/,http://127.0.0.1:8000/static/smart_chemist_frontend/index.html,g' smart_chemist_frontend/Viewer.js
+sed -i -e 's,https://chemist.smarts.plus/,http://127.0.0.1:8000/static/smart_chemist_frontend/index.html,g' smart_chemist_frontend/src/Viewer.js
 ```
 If your server is still running, you should now be able to access the frontend on the website:
 
